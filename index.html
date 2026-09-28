@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#2a102f" />
+  <meta name="description" content="MARINA Bakery — торты и сладкая выпечка в Ansan и Incheon." />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icons/icon-192.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>MARINA Bakery</title>
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+
+  <header class="header" id="top">
+    <a class="brand" href="#top" aria-label="MARINA Bakery">
+      <span class="brand-ko">마리나</span>
+      <span class="brand-cake">♕</span>
+      <span class="brand-name">MARINA</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Главное меню">
+      <a href="#about">О нас</a>
+      <a href="#cakes">Торты</a>
+      <a href="#pastry">Выпечка</a>
+      <a href="#branches">Филиалы</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+    <div class="header-actions">
+      <a class="mini-link" href="tel:01073635536">010-7363-5536</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Открыть меню"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <aside class="drawer" id="drawer" aria-hidden="true">
+    <button class="drawer-close" id="drawerClose" aria-label="Закрыть меню">×</button>
+    <div class="drawer-kicker">MARINA BAKERY</div>
+    <nav>
+      <a href="#about">О нас</a>
+      <a href="#cakes">Торты</a>
+      <a href="#pastry">Выпечка</a>
+      <a href="#branches">Филиалы</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+    <div class="drawer-foot">Ansan · Incheon · Korea</div>
+  </aside>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-orb orb-a"></div><div class="hero-orb orb-b"></div>
+      <div class="floating crumb c1"></div><div class="floating crumb c2"></div><div class="floating crumb c3"></div>
+      <div class="floating flower f1">✦</div><div class="floating flower f2">✧</div>
+
+      <div class="hero-copy reveal" id="heroCopy">
+        <p class="eyebrow" id="heroEyebrow">PREMIUM BAKERY · KOREA</p>
+        <h1><span>MARINA</span><em>Bakery</em></h1>
+        <div class="hero-slide-copy" id="heroSlideCopy">
+          <p class="hero-sub"><span id="heroTitle">Торты и сладкая выпечка</span><br><strong id="heroSubtitle">Cakes & Sweet Pastry</strong></p>
+          <p class="hero-text" id="heroText">Мягкий медовик, нежные кремы и десерты, которые превращают обычный день в маленький праздник.</p>
+        </div>
+        <div class="hero-buttons">
+          <a class="btn primary magnetic" href="#cakes">Смотреть десерты <span>↗</span></a>
+          <a class="btn ghost magnetic" href="https://www.instagram.com/marinabakerykr/" target="_blank" rel="noopener">Instagram <span>@marinabakerykr</span></a>
+        </div>
+      </div>
+
+      <div class="hero-art" id="heroArt">
+        <div class="huge-word" id="hugeWord">PASTRY</div>
+        <div class="cake-wrap" id="cakeWrap">
+          <div class="cake-glow"></div>
+          <div class="honey-ring" aria-hidden="true"></div>
+          <div class="spark-field" id="sparkField" aria-hidden="true"></div>
+          <img src="assets/img/medovik-hero.jpg" alt="Медовик MARINA Bakery" class="cake-img" id="heroCake" />
+          <div class="cake-badge"><span>마리나</span><strong>MARINA</strong></div>
+        </div>
+        <div class="hero-index" id="heroIndex" aria-label="Слайды">
+          <button class="hero-dot active" data-slide="0" aria-label="Слайд 1">01</button><i></i>
+          <button class="hero-dot" data-slide="1" aria-label="Слайд 2">02</button>
+          <button class="hero-dot" data-slide="2" aria-label="Слайд 3">03</button>
+        </div>
+        <div class="hero-progress" aria-hidden="true"><span id="heroProgress"></span></div>
+      </div>
+
+      <div class="scroll-note">SCROLL TO DISCOVER <span>↓</span></div>
+    </section>
+
+    <section class="marquee" aria-hidden="true"><div>HONEY · CREAM · LOVE · MARINA · HONEY · CREAM · LOVE · MARINA ·</div></section>
+
+    <section class="about section" id="about">
+      <div class="section-tag reveal">01 / OUR STORY</div>
+      <div class="about-grid">
+        <h2 class="display reveal">Больше, чем<br><i>просто торт</i></h2>
+        <div class="about-copy reveal">
+          <p>MARINA — кондитерская с характером: мягкие бисквиты, разнообразие коржей, прослоек и кремов, натуральные ингредиенты и вкус, к которому хочется возвращаться.</p>
+          <div class="stats">
+            <div><strong data-count="3">0</strong><span>филиала</span></div>
+            <div><strong data-count="10">0</strong><span>часов свежей выпечки</span></div>
+            <div><strong data-count="100">0</strong><span>% любви к десертам</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="showcase section" id="cakes">
+      <div class="section-heading reveal"><span>02 / SIGNATURE</span><h2>Медовик —<br>главный герой</h2></div>
+      <div class="showcase-card reveal">
+        <div class="showcase-image"><img src="assets/img/medovik-hero.jpg" alt="Фирменный медовик" loading="lazy"></div>
+        <div class="showcase-copy">
+          <span class="pill">SIGNATURE CAKE</span>
+          <h3>Медовик MARINA</h3>
+          <p>Тонкие медовые коржи, воздушный крем и насыщенный медовый аромат. Десерт, который выглядит так же эффектно, как и запоминается на вкус.</p>
+          <div class="feature-row"><span>Honey layers</span><span>Soft cream</span><span>Handmade</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pastry section" id="pastry">
+      <div class="section-heading reveal"><span>03 / SWEET PASTRY</span><h2>Сладкая выпечка<br><i>на каждый день</i></h2></div>
+      <div class="pastry-track">
+        <article class="pastry-card reveal"><div class="pastry-num">01</div><h3>Торты</h3><p>Для праздников, встреч и тех дней, когда нужен повод порадовать себя.</p></article>
+        <article class="pastry-card reveal"><div class="pastry-num">02</div><h3>Пирожные</h3><p>Нежные кремы, текстуры и аккуратная подача.</p></article>
+        <article class="pastry-card reveal"><div class="pastry-num">03</div><h3>Выпечка</h3><p>Свежая сладкая выпечка с мягким домашним характером.</p></article>
+      </div>
+    </section>
+
+    <section class="branches section" id="branches">
+      <div class="branches-head reveal">
+        <span>04 / OUR BRANCHES</span>
+        <h2>Всегда<br><i>рядом с вами</i></h2>
+        <p>Три филиала MARINA Bakery в Корее. Выберите удобный и откройте маршрут одним касанием.</p>
+      </div>
+
+      <div class="branch-grid">
+        <article class="branch-card reveal" data-address="경기도 안산시 단원구 원곡로 19">
+          <div class="branch-top"><span>01</span><small>ANSAN</small></div>
+          <h3>Ansan Chutek</h3>
+          <p>경기도 안산시 단원구 원곡로 19</p>
+          <a href="tel:01056745122" class="branch-phone">010-5674-5122</a>
+          <div class="map-actions"><button data-map="kakao">Kakao Map</button><button data-map="naver">Naver Map</button></div>
+        </article>
+        <article class="branch-card reveal" data-address="경기도 안산시 단원구 부부로8길 19">
+          <div class="branch-top"><span>02</span><small>ANSAN</small></div>
+          <h3>Ansan Tekkol</h3>
+          <p>경기도 안산시 단원구 부부로8길 19</p>
+          <a href="tel:01063243342" class="branch-phone">010-6324-3342</a>
+          <div class="map-actions"><button data-map="kakao">Kakao Map</button><button data-map="naver">Naver Map</button></div>
+        </article>
+        <article class="branch-card reveal" data-address="인천광역시 연수구 함박로 49">
+          <div class="branch-top"><span>03</span><small>INCHEON</small></div>
+          <h3>Incheon Sadanji</h3>
+          <p>인천광역시 연수구 함박로 49</p>
+          <a href="tel:01095801911" class="branch-phone">010-9580-1911</a>
+          <div class="map-actions"><button data-map="kakao">Kakao Map</button><button data-map="naver">Naver Map</button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-inner reveal">
+        <p class="eyebrow">SWEET MOMENTS MAKE A BRIGHTER DAY</p>
+        <h2>Life is sweeter<br><i>with MARINA</i></h2>
+        <div class="contact-links">
+          <a href="https://www.instagram.com/marinabakerykr/" target="_blank" rel="noopener">Instagram <span>@marinabakerykr</span></a>
+          <a href="tel:01073635536">Phone <span>010-7363-5536</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© 2026 MARINA Bakery</span><a href="#top">Back to top ↑</a></footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
